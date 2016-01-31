@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "bootswatch": "^3.3.6",
+    "concat": "^1.0.0",
+    "copyfiles": "^0.2.1",
+    "exec-npm": "^2.1.0",
+    "jquery": "^2.2.0",
+    "semistandard": "^7.0.5",
+    "watch": "^0.17.1"
+  },
+  "scripts": {
+    "test": "semistandard",
+    "build:styles": "node build/concatStyles.js",
+    "build": "npm run build:styles",
+    "build:watch": "npm run build && npm run watch",
+    "watch": "node build/watch.js"
+  }
+}
