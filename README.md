@@ -1,2 +1,2 @@
 # mon-it
-MONitor-IT
+Website monitoring tool
