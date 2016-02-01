@@ -13,5 +13,10 @@ storage/
 .env
 .env.example
 
+# Application
 database/database.sqlite
 npm-debug.log
+
+# Docker
+supervisord.pid
+.docker/

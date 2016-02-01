@@ -14,3 +14,9 @@ mysql:
   volumes:
     - .docker/db/data:/var/lib/mysql
 
+node:
+  image: node:latest
+  volumes_from:
+    - php
+  command:
+    - "/var/www/.docker/nodewatch.sh"
