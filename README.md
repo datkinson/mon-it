@@ -9,8 +9,6 @@ There is a docker-compose file which defines the behaviour of all of this but wi
 
 https://docs.docker.com/compose/install/
 
-This method will currently require you to stop any service you have running on port 80.  This is because of the special environment this project requires to run.
-
 You will need to alter your .env file, a docker version has been provided
 ```bash
 cp .env.docker .env
