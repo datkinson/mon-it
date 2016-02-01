@@ -14,7 +14,8 @@
   "scripts": {
     "test": "semistandard",
     "build:styles": "node build/concatStyles.js",
-    "build": "npm run build:styles",
+    "build:scripts": "node build/concatScripts.js",
+    "build": "npm run build:styles && npm run build:scripts",
     "build:watch": "npm run build && npm run watch",
     "watch": "node build/watch.js"
   }
