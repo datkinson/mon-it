@@ -18,5 +18,10 @@
     "build": "npm run build:styles && npm run build:scripts",
     "build:watch": "npm run build && npm run watch",
     "watch": "node build/watch.js"
+  },
+  "semistandard": {
+    "ignore": [
+      "public/*"
+    ]
   }
 }

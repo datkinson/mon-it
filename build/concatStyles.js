@@ -6,8 +6,8 @@ concat(
     'node_modules/bootswatch/darkly/bootstrap.min.css'
   ],
   'public/css/styles.css', function (error) {
-  if (error) {
-    console.error(error);
+    if (error) {
+      console.error(error);
+    }
   }
-}
 );

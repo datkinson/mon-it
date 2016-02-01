@@ -6,8 +6,8 @@ concat(
     'node_modules/bootstrap/dist/js/bootstrap.min.js'
   ],
   'public/js/application.js', function (error) {
-  if (error) {
-    console.error(error);
+    if (error) {
+      console.error(error);
+    }
   }
-}
 );
